@@ -1,0 +1,10 @@
+# Template repo carries the empty scaffold only — notes never go in it.
+projects/*/daily/*.md
+projects/*/workstreams/*.md
+.kanbn/tasks/*.md
+
+# keep the structure
+!**/.gitkeep
+
+.DS_Store
+.obsidian/

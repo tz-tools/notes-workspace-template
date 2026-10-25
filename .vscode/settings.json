@@ -1,0 +1,52 @@
+{
+  "todo-tree.regex.regex": "(#)($TAGS)\\b",
+  "todo-tree.regex.regexCaseSensitive": false,
+  "todo-tree.general.tags": [
+    "todo",
+    "decision",
+    "status",
+    "workstream",
+    "prod-atlas",
+    "prod-nova",
+    "c-intake",
+    "c-compute",
+    "c-dispatch",
+    "c-auth",
+    "c-gateway",
+    "c-notifier",
+    "c-scheduler"
+  ],
+  "todo-tree.filtering.includeGlobs": [
+    "**/*.md"
+  ],
+  "todo-tree.filtering.excludeGlobs": [
+    "**/templates/**"
+  ],
+  "todo-tree.tree.showCountsInTree": true,
+  "todo-tree.tree.groupedByTag": true,
+  "todo-tree.highlights.defaultHighlight": {
+    "type": "tag",
+    "gutterIcon": true
+  },
+  "todo-tree.highlights.customHighlight": {
+    "todo": {
+      "icon": "checklist",
+      "foreground": "#2d8cf0"
+    },
+    "decision": {
+      "icon": "law",
+      "foreground": "#c678dd"
+    },
+    "status": {
+      "icon": "pulse",
+      "foreground": "#56b6c2"
+    },
+    "workstream": {
+      "icon": "git-branch",
+      "foreground": "#e5c07b"
+    }
+  },
+  "files.exclude": {
+    "**/.kanbn/tasks": false
+  }
+}
